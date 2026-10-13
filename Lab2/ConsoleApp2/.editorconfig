@@ -1,0 +1,8 @@
+root = true
+
+[*.cs]
+# Включаем предупреждения форматирования (IDE0055)
+dotnet_diagnostic.IDE0055.severity = warning
+
+# Запрещаем перенос открывающей фигурной скобки на новую строку для ВСЕХ элементов
+csharp_new_line_before_open_brace = none
